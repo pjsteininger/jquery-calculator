@@ -14,6 +14,24 @@
 </head>
 
 <body>
+  <style>
+    .btn {
+      width: 20%;
+      margin: 1.9%;
+    }
+
+    #button-clear {
+      width: 96%;
+      margin: 2%;
+    }
+
+    #first-number,
+    #second-number,
+    #operator,
+    #result {
+      font-family: 'Courier New', Courier, monospace;
+    }
+  </style>
 
   <!-- Jumbotron for Title -->
   <div class="jumbotron">
@@ -26,7 +44,7 @@
     <div class="row">
 
       <!-- Calculator Panel -->
-      <div class="col-lg-4">
+      <div class="col-lg-5">
         <div class="card">
           <h3 class="card-header">Calculator</h3>
 
@@ -95,7 +113,7 @@
       </div>
 
       <!-- Result Panel -->
-      <div class="col-lg-6">
+      <div class="col-lg-7">
         <div class="card">
           <h3 class="card-header">Result</h3>
           <div class="card-body">
@@ -167,7 +185,7 @@
 
       //evaluate equation
       $("#button-equal").click(function () {
-        
+
 
 
 
